@@ -1,8 +1,5 @@
 (ns university-manager.models.student
-  (:require [common-core.schema :as schema]
-            [common-core.skeletons :as skeletons] 
-            [schema.core :as s]
-            ))
+  (:require [schema.core :as s]))
 
 (def student-skeleton
   {:cod {:schema s/Uuid}

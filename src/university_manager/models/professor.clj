@@ -1,7 +1,5 @@
 (ns university-manager.models.professor
-  (:require [common-core.schema :as schema]
-            [common-core.skeletons :as skeletons]
-            [schema.core :as s]))
+  (:require [schema.core :as s]))
 
 (def professor-skeleton
   {:cod {:schema s/Uuid}
